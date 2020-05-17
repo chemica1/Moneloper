@@ -49,7 +49,7 @@ class MACD_RSI_machine():
 
 		rsi14 = ta.RSI(close_price_list_nparr,timeperiod = 14)
 		print(f' avg12 : {self.moving_avg_12}  avg26 : {self.moving_avg_26}  rsi14 : {rsi14}')
-		#print(len(self.price))
+		print(len(self.price))
 
 if __name__ == '__main__':
 	a = MACD_RSI_machine()
